@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "287083273019",
+    "project_id": "fir-tutorialchat-33a7a",
+    "storage_bucket": "fir-tutorialchat-33a7a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287083273019:android:39ae3238ee3371ac02b51e",
+        "android_client_info": {
+          "package_name": "com.example.firebasetutorialchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287083273019-qgtkb938qc02dklrjt0tv2rpdaat0a1f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJK41IuXz0DizYkZOuQ2mDI4_PHwJVATU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287083273019-qgtkb938qc02dklrjt0tv2rpdaat0a1f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
