@@ -1,6 +1,7 @@
 package com.example.firebasetutorialchat.activity
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.LinearLayout
@@ -25,6 +26,13 @@ class UsersActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_users)
 
+        imgProfile.setOnClickListener {
+            val intent = Intent(
+                this@UsersActivity,
+                ProfileActivity::class.java
+            )
+            startActivity(intent)
+        }
 
         getUsersList()
     }
